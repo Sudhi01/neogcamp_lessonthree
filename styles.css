@@ -11,9 +11,12 @@ hr{
     margin: 2rem 0rem;
 }
 /** container **/
+.margin-md{
+    margin:2rem;
+}
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .container-center{
     max-width: 600px;
@@ -21,12 +24,17 @@ hr{
 }
 .link{
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding:0.5rem 0.5rem;
+    padding-bottom: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 .primary-link{
+    
     background-color:var(--primary-color);
     border-radius:0.5rem;
     color:white;
+    
 }
 .secondary-link{
      color: var(--primary-color);
@@ -60,9 +68,10 @@ hr{
 }
 .hero{
     padding:2rem;
+    padding-top:5rem;
 }
 .hero .img-hero{
-    max-width: 450px;
+    max-width: 700px;
     display:block;
     margin:auto;
 }
@@ -81,7 +90,7 @@ hr{
     text-align: center;
 }
 .sectionown{
-    background-color: grey;
+    background-color: lightgrey;
 }
 .sectionown h1{
     text-align:center;
@@ -99,5 +108,9 @@ hr{
 }
 .footer .ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight:bold;
+    font-size:large;
 }
 
